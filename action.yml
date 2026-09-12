@@ -18,7 +18,7 @@ inputs:
     required: false
     default: ''
   ttl:
-    description: 'Drop lifetime in seconds (min 60). Default: 7 days anonymous/free, no expiry for subscribers. Free plan caps ttl at 7 days'
+    description: 'Drop lifetime in seconds (min 60). Default: 30 days anonymous, 90 days signed-in free, no expiry for subscribers — paid plans may set any value'
     required: false
     default: ''
   include:
